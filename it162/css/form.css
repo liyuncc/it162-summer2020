@@ -1,5 +1,4 @@
 /* start reCAPTCHA styles */
-
        form>div {
             margin:1em;
         }
@@ -14,12 +13,13 @@
 		}
 
         input:required {
-              border: 1px solid red;
+              border: 2px solid #ccc;
+              background: #f1f1f1;
         }
 
          input:optional, textarea:optional {
              background-color:#f1f1f1;
-             border:1px solid #ccc;
+             border:2px solid #ccc;
         }
 
         input[type="submit"], input[type="button"] {
@@ -41,5 +41,55 @@
           border-right: 1px solid #ccc;
         }
         
-        /* end reCAPTCHA styles */
+/* end reCAPTCHA styles */
 
+
+
+
+/* start Form styles*/
+/*@import "compass/css3";*/
+
+form {
+/*    background: red;*/
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+#fname, #lname, #email{
+    border-radius: 5px;
+    display: block;
+    width: 80%;
+    margin-top: 1em;
+    height: 30px;
+}
+
+#message {
+    border-radius: 5px;
+    display: block;
+    width: 80%;
+/*    margin: 1em;*/
+    margin: 25px 18px;
+    height: 120px;
+    
+}
+
+#specify {
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-left: 23px;
+    height: 20px;
+}
+
+#submit {
+    color: white; 
+    background: black;
+    cursor: pointer;
+    display: block;
+/*    margin: 1em;*/
+    margin: 25px 16px;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+/* end Form styles*/

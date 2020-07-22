@@ -30,6 +30,11 @@ h1>a {
 }
 
 /*https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+/* Picture sizes:
+Desktop 700px width
+Tablet 500px width
+Phone 320px width
+*/
 /* Embed Responsively Rules! */
 
 div.embed-container {
@@ -53,6 +58,8 @@ footer {
 	clear:both;
     margin: 10px;
 }
+
+
 
 /* START RESPONSIVE STYLES */
 
@@ -137,6 +144,12 @@ footer {
     img.tablet, img.desktop {
        	display:none;
     }  
+    
+    section h2, aside h2 {
+        text-align: center;
+    }
+    
+    
 
 }
 
