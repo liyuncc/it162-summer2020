@@ -22,34 +22,43 @@ $logo_color = ''; //make logo_color an empty string by default
 
 switch(THIS_PAGE){
     case 'index.php':
-        $title = "Liyun Cecil's IT162 Portal Page";
+        $title = "Liyun Cecil's IT162 Portal Website";
         $logo = 'fa-home';
         $pageID = 'Welcome';
     break;
         
-    //case 'big.php' here
+    case 'big/index.php':
+        $title = "Liyun's BIG Page";
+        $logo = '';
+        $pageID = 'BIG Page (Final Project)';
+        
+    break;
         
     case 'aia.php':
-        $title = "Liyun's Final Project AIA";
+        $title = "Liyun's AIA";
         $logo = 'fa-universal-access';
         $pageID = 'AIA Research';
         $logo_color = 'style = "color: #F5B700"';
     break; 
         
     case 'flowchart.php':
-        $title = "Liyun's Final Project Flowchart";
+        $title = "Liyun's Flowchart";
         $logo = 'fa-paper-plane-o';
         $pageID = "Flowchart of client's site";
         $logo_color = 'style = "color: #966B9D"';
     break;    
         
         
-    //case 'fp.php' here
+    case 'fp/index.php':
+        $title = "Liyun's Final Project";
+        $logo = 'fa fa-paw';
+        $PageID = "Final Project";
+        
         
     case 'contact.php':
-        $title ="Liyun Cecil's IT162 Contact Page";
-        $logo = 'fa-pencil-square-o';
-        $pageID = 'Contact me. Let\'s start a conversation!';
+        $title ="Liyun Cecil's Contact Page";
+        $logo = 'fa-envelope';
+        $pageID = 'Contact me. Get in touch!';
         $logo_color = 'style = "color: #F5B700"';
     break;
           
