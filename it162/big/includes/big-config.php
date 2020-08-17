@@ -20,56 +20,73 @@ define('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 
 $logo_color = ''; //make logo_color an empty string by default
 
-switch(THIS_PAGE){
+switch(THIS_PAGE) {
+        
+//    case '../index.php':
+//        $title = "Liyun Cecil's IT162 Portal Website";
+//        $logo = 'fa-home';
+//        $pageID = '';
+//    break;
+//        
     case 'index.php':
-        $title = "Liyun Cecil's IT162 BIG Page";
-        $logo = 'fa-home';
-        $pageID = 'Main Page';
+        $title = "Web Dev Examples by Liyun Cecil";
+        $logo = 'fa-graduation-cap';
+        $pageID = 'Client Questionnaire';
     break;
         
+    case 'flexbox.php':
+        $title = 'Flexbox Research';
+        $logo = 'fa-th-large';
+        $pageID = 'Flexbox Research';
+    break;    
     
+    case 'galleries.php':
+        $title = 'Galleries Research';
+        $logo = 'fa-camera-retro';
+        $pageID = 'Galleries Research';
+    break;        
+            
+    case 'calendar.php':
+        $title = 'Google Calendar';
+        $logo = 'fa-calendar';
+        $pageID = 'Google Calendar';
+    break; 
         
-    //case 'fp.php' here
+    case 'map.php':
+        $title = 'Google Map';
+        $logo = 'fa-globe';
+        $pageID ='Google Map';
+    break;      
         
-   
+    case 'youtube.php':
+        $title = 'YouTube';
+        $logo = 'fa-youtube-play';
+        $pageID ='YouTube';
+    break;        
+            
+    case 'shoppingcarts.php':
+        $title = 'Shopping Carts Research';
+        $logo = 'fa-shopping-cart';
+        $pageID ='Shopping Carts Research';
+    break;        
+                    
+    case 'siteapp.php':
+        $title = 'Responsive Site vs Mobile App Research';
+        $logo = 'fa-html5';
+        $pageID ='Responsive Site vs Mobile App Research';
+    break;        
+    
+    case 'webcam.php':
+        $title ='Live Web Cameras (2)';
+        $logo = 'fa-video-camera';
+        $pageID = 'Live Web Cameras (2)';
+    break;            
+            
     default: 
         $title = THIS_PAGE;
-        $logo = ''; //no icon by default
+        $logo = 'fa-graduation-cap'; //no icon by default
         $pageID = 'Welcome';
 }
 
-
-$nav1['index.php'] = 'Welcome';
-$nav1['big/index.php'] = 'Big';
-$nav1['aia.php'] ='AIA';
-$nav1['flowchart.php'] ='Flowchart';
-$nav1['fp/index.php'] ='Final Project';
-$nav1['contact.php'] ='Contact Liyun';
-
-//Here we're creating a function to generate links and keep the highlight on the current page
-/*
-            <li><a href="index.php" class="selected">Welcome</a></li>
-            <li><a href="big/index.php">Big</a></li>
-            <li><a href="aia.php">AIA</a></li>
-            <li><a href="flowchart.php">Flowchart</a></li>
-            <li><a href="fp/index.php">Final Project</a></li>
-            <li><a href="contact.php">Contact Liyun</a></li>
-*/
-function makeLinks($nav1){
-    
-    $myReturn = '';
-    foreach($nav1 as $url => $text){
-        
-        if($url == THIS_PAGE){
-            $myReturn .= "<li><a class=\"selected\" href=\"$url\">$text</a></li>"; 
-            
-        }else{
-           $myReturn .= "<li><a href=\"$url\">$text</a></li>"; 
-        }  
-    }
-    
-    return $myReturn;
-
-}
 
 ?>
