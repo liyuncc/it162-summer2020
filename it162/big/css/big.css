@@ -1,5 +1,8 @@
 /* My IT162 BIG Website Styles */
-
+/*
+TO DO: 
+1. font-family
+*/
 
 * {
     box-sizing: border-box;
@@ -7,6 +10,8 @@
 
 html, body {
     background: lemonchiffon;
+/*    font-family: 'Domine', serif; */
+/*font-family needs to change*/
 }
 
 div.wrapper, footer {
@@ -17,20 +22,45 @@ div.wrapper, footer {
 }
 
 .leftcol {
-    width: 70%;
+    width: 65%;
     float:left;
     padding-left: 2.5%;
-    height: 300px;
-    background: yellow;
+/*    height: 300px;*/
+/*    background: yellow;*/
 }
 
 .rightcol {	
     width: 30%;
     float:right;
     padding-right: 2.5%;
-    height: 300px;
-    background: green;
+/*    height: 300px;*/
+/*    background: green;*/
 }
+
+#web-cycle {
+    width: 100%;
+    padding-right: 50px;
+}
+
+
+/*START WEBCAM Styles*/
+.dot iframe {
+    border: 0;
+    width: 324px;
+    height: 214px;
+}
+
+body.webcam {
+    margin: 0;
+    padding: 0;
+}
+
+body.webcam img {
+    width: 100%;
+}
+
+/*END WEBCAM Styles*/
+
 
 /*
 .row:after {
@@ -40,13 +70,19 @@ div.wrapper, footer {
 }
 */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-weight: normal;
     padding: 0.5em;
+/*    font-family: 'Domine', serif;*/
+/*font-family needs to change*/
+
 }
 
 p {
     margin: 1em 0.8em;
+/*    font-family: 'rubik', sans-serif;*/
+    /*font-family needs to change*/
+
 }
 
 
@@ -71,27 +107,6 @@ h1>a {
     margin-left: 1%; /*this keeps the icon from being squeeezed to the left*/
 }
 
-footer {
-	clear:both;
-    margin: 10px;
-    text-align: center;
-/*    text-transform: uppercase;*/
-}
-
-
-/* Change background color of navigation on selected page */
-ul.topnav li a.selected {
-    background-color: #ccc;
-    color: #000;
-}
-
-/*https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-/* Picture sizes:
-Desktop 700px width
-Tablet 500px width
-Phone 320px width
-*/
-
 /* START Global Embed Responsively Rules! */
 div.embed-container {
     position: relative;
@@ -110,14 +125,39 @@ div.embed-container iframe {
     height: 100%;
 }
 
+/* Show month view calendar*/
+div.embed-container.month-view {
+    display: block;
+}
+
 /* Hide agenda view of calendar*/
 div.embed-container.agenda-view {
     display: none;
 }
-
 /* END Global Embed Responsively Rules!*/
 
 
+footer {
+	clear:both;
+    margin: 10px;
+    text-align: center;
+/*    text-transform: uppercase;*/
+}
+
+
+/* Change background color of navigation on selected page */
+ul.topnav li a.selected {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+/*https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+/* Picture sizes:
+Desktop 700px width
+Tablet 500px width
+Phone 320px width
+*/
 
 /* PHONE */
 @media all and (max-width:736px) { 
@@ -125,7 +165,6 @@ div.embed-container.agenda-view {
         width: 100%;
     } 
 /*
-    
     div.wrapper {
         background-color: #ffcc99;
     }
