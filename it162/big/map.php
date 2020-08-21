@@ -16,7 +16,7 @@
             325 5th Ave N, <br>
             Seattle, WA 98109
         </address>
-        <a href="tel:12067702700">(206) 770-2700</a>
+        <a href="tel:12067702700" class="phone">(206) 770-2700</a>
     </div>
     <!-- END RIGHT COL-->
    

@@ -1,5 +1,9 @@
 <!--index.php of big project-->
 <?php include "includes/header.php"; ?> 
+
+    <!-- image show or hide based on the screen size here-->
+    <img src="images/flexbox.png" class="desktop" alt="Picture of flexbox design">
+
     <h4>Background: Why was Flexbox created? </h4>
     <p>When it came to creating CSS layouts in the past, floats and positioning were widely used. Let’s take floats as an example, They were originally used in the print industry to wrap text around an image. Then floats were used for layouts in web design. However, floats have been creating problems and issues for web developers and designers. For instance, it is very difficult to center an element perfectly or “make all columns in multiple column layouts adopt the same height even if they contain a different amount of content (Flexbox).” In order to solve some of the problems, Flexbox was created. According to Coyier, it provides an efficient way to “layout, align and distribute space among items in a container.” The author further explains the main idea behind the flexbox which is to “give the container the ability to alter its items’ width/height to best fill the available space.” Therefore, the flexbox is very responsive to devices with different screen sizes.</p>
     
@@ -20,7 +24,7 @@
     <!-- START RIGHT COL-->
     <div class="rightcol">
         <h3>Citations</h3>
-        <ul>
+        <ul class="citation">
             <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#:~:text=The%20cross%20axis%20runs%20perpendicular%20to%20the%20main%20axis,%20therefore,%20axis%20runs%20along%20the%20rows" target="_blank">“Basic Concepts of Flexbox.”</a> MDN Web Docs.</li>
             <li><a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">“CSS Flexbox.”</a> CSS Flexbox (Flexible Box).</li>
             <li><a href="https://caniuse.com/#feat=flexbox" target="_blank">Can I Use... Support Tables for HTML5, CSS3, Etc.</a></li>

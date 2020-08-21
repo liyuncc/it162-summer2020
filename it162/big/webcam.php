@@ -1,6 +1,6 @@
 <!--index.php of big project-->
 <?php include "includes/header.php"; ?> 
-    <h3>Watch NASA: Earth From Space</h3> 
+    <h3 class="webcam">Watch NASA: Earth From Space</h3> 
     <div class="embed-container">
        
         <div class="embed-container">
@@ -15,10 +15,11 @@
     <!-- START RIGHT COL-->
     <div class="rightcol">
         <h3>DOT Web Cam: Brooklyn Bridge, NYC</h3>
-        <div class="dot">
-            <iframe src="http://www.liyuncecilcodes.com/it162/big/webcam.html" allowfullscreen></iframe>
+        
+            <iframe class="dot" src="http://www.liyuncecilcodes.com/it162/big/webcam.html" allowfullscreen></iframe>
            
-        </div>
+        
+    </div>
     <!-- END RIGHT COL-->
    
 </div>
