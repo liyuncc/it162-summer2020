@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap">
     <link rel="stylesheet" href="css/portal.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/form.css">
