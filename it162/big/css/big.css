@@ -137,6 +137,14 @@ h1>a {
     margin-left: 1%; /*this keeps the icon from being squeeezed to the left*/
 }
 
+.contact-feedback {
+    font-style: oblique;
+    color: rebeccapurple;
+    font-size: large;
+}
+
+
+
 /* START Global Embed Responsively Rules! */
 div.embed-container {
     position: relative;
