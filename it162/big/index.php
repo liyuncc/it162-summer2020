@@ -1,13 +1,12 @@
 <?php include 'includes/header.php'; ?>
-    <p>Thanks for visiting my site! If you like my work or have any questions, please feel free to fill out the form. I'm looking forward to hearing from you!</p>    
+
     <?php 
         include 'includes/contact_include.php';
-        
         $toAddress = "liyuncecil@gmail.com";  //place your/your client's email address here
         $toName = "Liyun Cecil"; //place your client's name here
         $website = "Liyun's IT162 BIG Client Questionnaire Form";  //place NAME of your client's website
 
-        echo loadContact('multiple.php', 'feedback.php');#demonstrates multiple form elements
+        echo loadContact('multiple.php', 'multiple-feedback.php');#demonstrates multiple form elements
 
     ?>
     
