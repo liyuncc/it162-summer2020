@@ -17,7 +17,7 @@
 
 #--------------END CONFIG AREA ------------------------#
 ?>
-
+<p>Thanks for visiting my site! If you like my work or have any questions, please feel free to fill out the form. I'm looking forward to hearing from you!</p>    
 <!-- START HTML FORM -->
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
     <div>

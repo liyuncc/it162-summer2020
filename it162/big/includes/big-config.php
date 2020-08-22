@@ -1,8 +1,8 @@
 <?php
 /*
-portal-config.php
+big-config.php
 
-Used to store all of our IT162 configuration information
+Used to store all of our IT162 Big Project configuration information
 
 */
 
@@ -31,7 +31,7 @@ switch(THIS_PAGE) {
     case 'index.php':
         $title = "Web Dev Examples by Liyun Cecil";
         $logo = 'fa-graduation-cap';
-        $pageID = 'Client Questionnaire';
+        $pageID = '';
     break;
         
     case 'flexbox.php':
@@ -55,13 +55,13 @@ switch(THIS_PAGE) {
     case 'map.php':
         $title = 'Google Map';
         $logo = 'fa-globe';
-        $pageID ='Google Map';
+        $pageID ='Map to Museum of Pop Culture';
     break;      
         
     case 'youtube.php':
         $title = 'YouTube';
         $logo = 'fa-youtube-play';
-        $pageID ='YouTube';
+        $pageID ='YouTube: What is Web Accessibility?';
     break;        
             
     case 'shoppingcarts.php':
@@ -77,10 +77,10 @@ switch(THIS_PAGE) {
     break;        
     
     case 'webcam.php':
-        $title ='Live Web Cameras (2)';
+        $title ='Live Web Cameras';
         $logo = 'fa-video-camera';
-        $pageID = 'Live Web Cameras (2)';
-    break;            
+        $pageID = 'Live Web Cameras';
+    break;    
             
     default: 
         $title = THIS_PAGE;
